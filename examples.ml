@@ -135,3 +135,7 @@ let freshName =
   get >>> arr (fun x -> (x+1, x)) >>> first put >>> arr snd
 
 
+
+
+let getTransformed f =
+  pure f (#) get
