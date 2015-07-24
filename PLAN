@@ -1,0 +1,24 @@
+Say that this is all about possible dataflow. And all functional
+programming is about explicit dataflow! We are just getting clear
+on dataflow "under the hood" - effect casual interaction.
+
+1. What?
+ - Start with "can substitute equals for equals" example. Say that we'll
+   use pure subset of OCaml.
+ - Why does it mean to be pure / have side effects?
+ - What do we mean by implementing a side effect?
+ - What are containers (functors)?
+   * option, list, reader, state, writer
+
+2. Calculator option example: fairy tale about error handling.
+   Get through increasing power order: idiom, arrow, monad.
+   At the transition from idiom to arrow introduce box
+   graphical notation.
+
+3. Introduce the laws. Monad -> Arrow -> Idiom. Work through the
+   get/put example?
+
+4. Sketch the equivalences: static arrows <-> idioms and
+   higher order arrows <-> monads.
+   Peculiar thing: we weaken and strengthen the arrow calculus
+   in the same way: adding constants and axioms.
